@@ -28,6 +28,9 @@ app.get('/institutions', (request, response) => {
 
 For a complete express.js server example, [click here](https://github.com/mxenabled/mx-atrium-express).
 
+## Proxy Support
+Some cloud hosted applications will need to connect via a proxy server to allow for IP Whitelisting to MX Atrium Production servers. The `[omni-fetch](https://www.npmjs.com/package/omni-fetch)`  
+
 ## Helpers
 
 There are two constants returned with the Atrium instance, `endpoints` and `environments`.
