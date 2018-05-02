@@ -1,5 +1,5 @@
 require('es6-promise').polyfill();
-require('omni-fetch');
+const fetch = require('omni-fetch');
 
 const Atrium = module.exports = {};
 
