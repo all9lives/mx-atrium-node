@@ -197,7 +197,7 @@ Atrium.Client.prototype._fetchUtility = function (endpoint, method, params = nul
     }
   }))
   .then(response => {
-    if (response.ok) {
+    if (response.ok && response.status != 204) {
       return response.json();
     } else {
       return response;
